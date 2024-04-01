@@ -27,6 +27,7 @@ os.environ["OPENAI_API_KEY"] = "sk-h5sCh8NdjHxT9tgCzIscT3BlbkFJQh4Q5UK0Wvlw8aLtc
 # Initialize the OpenAI client
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
+
 def pdf_query(pdf_file, query):
     """
     Processes a PDF file, extracts text, generates embeddings,
@@ -128,14 +129,14 @@ def frames_to_story(base64Frames, prompt, model="gpt-4-vision-preview"):
           "role": "user",
           "content": [
               prompt,
-              *map(lambda x: {"image": x, "resize": 428}, base64Frames[0::25]),
+              *map(lambda x: {"image": x, "resize": 428}, base64Frames[0::50]),
           ],
       },
   ]
   params = {
       "model": "gpt-4-vision-preview",
       "messages": PROMPT_MESSAGES,
-      "max_tokens": 200,
+      "max_tokens": 300,
   }
 
   response = openai.chat.completions.create(
@@ -143,6 +144,7 @@ def frames_to_story(base64Frames, prompt, model="gpt-4-vision-preview"):
   print(response.choices[0].message.content)
 
   return response.choices[0].message.content
+
 
 
 
@@ -155,7 +157,7 @@ def text_to_audio(text):
         json={
             "model": "tts-1",
             "input": text,
-            "voice": "onyx",
+            "voice": "fable",
         },
     )
 
@@ -272,5 +274,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
