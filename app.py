@@ -22,7 +22,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 # Set the OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Your-API_KEY"#replace Your-API_KEY with actual openai api key
 
 # Initialize the OpenAI client
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
