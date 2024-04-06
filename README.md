@@ -22,12 +22,4 @@ These are frames from a series of a soccer game. Describe the sequence of images
 ### Project Showcase
 [Add any relevant project showcase or demo links here]
 
-### Contributors
-[Include names or GitHub handles of project contributors]
-
-### License
-[Specify the project's license]
-
-### Acknowledgements
-[Thank any individuals or organizations that contributed to the project]
-
+   
