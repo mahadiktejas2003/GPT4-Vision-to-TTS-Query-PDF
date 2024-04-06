@@ -3,7 +3,6 @@
 Uses GPT4 -the most capable model of OpenAI 🤩
 
 
-@Description: 
 
 GPT4-Vision-to-TTS-PDF-Query🚀🌟
 example prompts:
