@@ -1,19 +1,23 @@
 ## GPT4-Vision-to-TTS-PDF-Query: AI-Powered Video Narration and Summarization
 
-** Special Highlights **
+Uses GPT4 -the most capable model of OpenAI 🤩
 
-Video Recognition & Narration: Generate dynamic audio descriptions for videos, bringing them to life with engaging commentary.
-GPT-4 Integration: Leverage the power of OpenAI's most advanced model for superior text generation capabilities.
-** Unleash the Power of AI-Driven Video Narration and Summarization**
 
-This project presents a groundbreaking approach to enriching video experiences by automatically generating audio descriptions and concise summaries. Utilizing the cutting-edge capabilities of GPT-4, it empowers users to:
+@Description: 
 
-Enhance Video Accessibility: Provide audio descriptions for videos, making them accessible to visually impaired viewers.
-Generate Engaging Commentary: Create dynamic voiceovers that capture the essence of a video, adding a captivating dimension to the visual content.
-Summarize Video Sequences: Extract key moments and actions from videos, providing a concise overview for quick comprehension.
-** Project Capabilities**
+GPT4-Vision-to-TTS-PDF-Query🚀🌟
+example prompts:
 
-Video Narration: Generate human-like audio descriptions for video sequences, detailing actions, objects, and scenes.
+Prompt1.=bird video:
+Generate a dynamic voiceover narrative to accompany a series of frames showcasing a delightful bird in various charming poses and activities. The voiceover should vividly describe the bird's actions, such as perching on branches, fluttering its wings, chirping melodiously, and pecking at seeds. The narration should evoke a sense of wonder and admiration for the bird's graceful movements and playful demeanor, enhancing the viewer's experience of the visual content
+
+Prompt2=Messi video:
+
+These are frames from a series of a soccer game, DESCRIBE THE SEQUENCE OF IMAGES AS IF U ARE COMMENTING ON A SOCCER MATCH of what you see in the game , BUT IN THE CONINOUS MANNER OF IMAGES. The series lasts approximately {duration} seconds. The narration should be engaging and energetic, capturing the excitement of the game. Emphasize the player with the ball, who is Lionel Messi, and highlight the thrilling moments on the field. Ensure that the commentary is captivating and enhances the viewing experience of each frame.
+
+
+@Limitations: 
+-Only 10 seconds of video size can be given the TTS, that's becaseu of the GPT4 vision preview  version! objects, and scenes.
 Content Summarization: Analyze video content and produce a textual summary highlighting key points.
 ** Usage (Current Limitations)**
 
