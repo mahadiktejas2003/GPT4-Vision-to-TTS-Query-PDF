@@ -1,6 +1,6 @@
-# GPT4-Vision-to-TTS-PDF-Query 🚀🌟
+# GPT4-Vision-to-TTS-Query-PDF🚀🌟
 
-## AI-Powered Video Narration and Summarization
+## AI-Powered Video Narration and Summarization With Query PDF
 
 ### Overview
 This project utilizes GPT-4, the most capable model of OpenAI, to provide dynamic voiceover narration and content summarization for videos. By leveraging cutting-edge AI technology, it enhances the viewer's experience by generating engaging narratives and highlighting key points in the video content.
